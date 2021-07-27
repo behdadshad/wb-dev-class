@@ -1,0 +1,43 @@
+*{
+    background-color: mediumaquamarine;
+}
+
+
+    
+    
+    a{
+        background-color: rgb(255, 255, 255);
+        border: 2px blue;
+    
+    }
+    
+    h1{
+        font-family: Arial;
+color: white;
+border-bottom: 3px solid green;
+background-image: url(grass.jpg);
+text-align:center;
+font-family: 'Source Code Pro', monospace;
+
+    }
+    
+        
+    
+    
+    
+    
+    
+    body{
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        font-family:arial;
+    }
