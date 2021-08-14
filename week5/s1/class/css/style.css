@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    
+}
+.box{
+    height: 300px;
+    overflow:auto;
+    font-size: 24px ;
+    width: 400px;
+    border:1px solid black;
+    background-color: burlywood;
+}
+.shadow{
+    box-shadow: 10px 10px 5px 1px blue inset, -5px -5px 10px 5px black;
+    height: 500px;
+    width: 600px;
+    background-color: chocolate;
+}

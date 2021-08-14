@@ -1,0 +1,20 @@
+*{
+box-sizing: border-box;
+   padding: 0px; 
+    margin: 0px;
+}
+
+header{
+    font-size: x-large;
+}
+div{
+
+    height: 800px;
+    border-radius: 5px;
+width: 50%;
+    border: black solid;
+}
+image{
+    margin-right: auto;
+    margin-left: auto;
+}
