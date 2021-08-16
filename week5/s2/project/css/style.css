@@ -9,7 +9,7 @@ header{
 }
 div{
 border: dotted;
-    height: 2000px;
+
     border-radius: 5px;
 width: 50%;
     
@@ -38,13 +38,22 @@ p{
     margin-left: auto;
     overflow:auto;
     width: 50%;
-    border: white solid;
+    border: black solid;
 }
 .dog{
-    height: 1000;
+
+    
     float: right;
 }
 .woof{
-    
-    
+
+}
+.cat{
+    float: left;
+}
+.clearfix{
+    clear: both;
+}
+footer{
+    font-size: x-large;
 }
