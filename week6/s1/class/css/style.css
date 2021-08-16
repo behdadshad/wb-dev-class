@@ -1,0 +1,64 @@
+*{
+box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+    font-family: badr;
+    src:url("/font/B\ badr.ttf");
+
+}
+
+body{
+    font-family: badr;
+}
+div{
+    padding: 10px;
+    margin-left: auto
+;
+margin:0 auto;
+    background-color: burlywood;
+    height: 700px;
+    width: 600px;
+}
+ul{
+
+    text-align: center;
+}
+li{
+    margin: 10px; 
+    font-size: 20px;
+    list-style: none;
+}
+li:first-child{
+    background-color: red;
+}
+li:last-child{
+    background-color: seagreen;
+}
+li:nth-child(3){
+    background-color: royalblue;
+}
+li:nth-child(2){
+    background-color: slateblue;
+}
+li:nth-child(4){
+    color: wheat;
+    background-color:black;
+}
+p{
+    font-size:  20px;
+    text-align: right;
+}
+p::first-letter{
+    color: white;
+}
+p:hover::first-line{
+    background-color: teal;
+}
+p::before{
+    content: "سلام";
+}
+p::after{
+    content: "خداحافظ";
+}

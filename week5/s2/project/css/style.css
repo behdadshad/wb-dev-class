@@ -8,13 +8,43 @@ header{
     font-size: x-large;
 }
 div{
-
-    height: 800px;
+border: dotted;
+    height: 2000px;
     border-radius: 5px;
 width: 50%;
-    border: black solid;
+    
 }
-image{
+.center{
+    width: 50%;
+    display: block;
     margin-right: auto;
     margin-left: auto;
+}
+h2{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    border-radius: 5px;
+    border: black solid;
+    font-size: 90px;
+padding: 20px;
+    text-align: center;
+}
+p{
+    height: 200;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    overflow:auto;
+    width: 50%;
+    border: white solid;
+}
+.dog{
+    height: 1000;
+    float: right;
+}
+.woof{
+    
+    
 }
