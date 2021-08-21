@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+}
+li{
+    margin: 50px;
+    text-align: center;
+}
+main{
+border: dotted;
+    
+}
+h2{
+    text-align: center;
+}
+.cat{
+    margin: 200px;
+    width: 500px;
+    height: 500px;
+    border: solid;
+    float: right;
+}
+div{
+    margin: 200px;
+    width: 500px;
+    height: 500px;
+    border: solid;
+    float: left;
+}
+.meow{
+    margin: 200px;
+    width: 500px;
+    height: 500px;
+    border: solid;
+}
+.dog{
+    float: right;
+    margin: 200px;
+    width: 500px;
+    height: 500px;
+    border: solid;
+}
