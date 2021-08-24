@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.john{
+    animation: stickman 5s infinite;
+}
+.henry{
+    animation: stickman 5s infinite;
+float: right;
+}
+.ball{
+    
+    animation: moveball 3s infinite;
+    position: absolute;
+    left:200px;
+    top: 200px;
+    width: 100px;
+}
+@keyframes moveball{
+    0%{transform: translate(0px) rotate(0deg);}
+    50%{transform: translate(2000px,0px) rotate(180deg);}
+    100%{transform:translate(0px) rotate(360deg);}
+}
+@keyframes stickman{
+    0%{transform: translate(0px);}
+    50%{transform: translate(0px,500px);}
+    100%{transform: translate(0px);}
+}
+

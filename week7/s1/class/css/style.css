@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+@keyframes changecolor {
+   from{background-color: blue;} 
+   to{background-color: red;}
+}
+.box{
+width: 100px;
+height: 100px;
+background-color:blue  ;
+animation: changecolor 5s linear 2s infinite
+
+}
