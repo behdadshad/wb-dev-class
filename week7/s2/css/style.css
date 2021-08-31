@@ -1,0 +1,20 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+li{
+    float: right;
+    margin: 30px;
+    display: inline;
+}
+body{
+    text-align: center;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Ffortune.com%2Flongform%2Fsingle-family-home-ai-algorithms%2F&psig=AOvVaw0Nyq-d9Lbc8k3jPQYbHr5D&ust=1630494736256000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCPivjK6Q2_ICFQAAAAAdAAAAABAD);
+}
+body img{
+    float: left;
+}
+footer{
+    text-align: center;
+}
